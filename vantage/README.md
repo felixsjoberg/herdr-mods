@@ -1,5 +1,7 @@
 # Vantage
 
+![Vantage](preview.png)
+
 Full Herdr App layout combining **Aura Soft Dark**, a glass pill top bar (`vantage-tabs`), repo-grouped **Spaces** (`vantage-spaces`), and **Agents** with Claude Code-style GitHub PR badges (`vantage-agents`).
 
 ```text

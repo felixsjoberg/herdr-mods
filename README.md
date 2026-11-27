@@ -8,6 +8,8 @@ Pick the full **Vantage** layout, or drop individual mods into your own layout â
 
 ### [Vantage](vantage/) *(Layout)*
 
+[<img src="vantage/preview.png" width="760" alt="Vantage layout">](vantage/)
+
 A dark, card-based workspace layout (**Aura Soft Dark** theme included) combining a glass pill top bar with labeled panel toggles, repo-grouped **Spaces**, and Claude Code-style GitHub **PR status badges** directly on every **Agent** row.
 
 - **Glass pill top bar (`vantage-tabs`):** rounded top bar with icon + real task title tabs, `+`, and labeled `Files` / `Changes` (plus optional `Browser`) buttons.
@@ -23,6 +25,8 @@ Read ~/.config/herdr-app/AGENTS.md, then add this layout: https://github.com/fel
 
 ### [Agent PRs](agent-prs/) *(Mod)*
 
+[<img src="agent-prs/preview.png" width="320" alt="Agent PRs sidebar mod">](agent-prs/)
+
 Standalone **Agents** sidebar mod that replaces generic repo prefixes with real task titles and adds Claude Code-style GitHub PR status badges (`open` in green, `merged` in purple, CI failure indicator) with a clickable PR list popover.
 
 Works with Claude Code (`~/.claude/projects/*/*.jsonl`), Antigravity (`agy` via `presence/*.lock` + `conversation_summaries.db`), and any git feature branch via a single batched `gh api graphql` query.
@@ -34,6 +38,8 @@ Read ~/.config/herdr-app/AGENTS.md, then add this mod: https://github.com/felixs
 ---
 
 ### [Repo Spaces](repo-spaces/) *(Mod)*
+
+[<img src="repo-spaces/preview.png" width="320" alt="Repo Spaces sidebar mod">](repo-spaces/)
 
 Standalone **Spaces** sidebar mod that groups duplicate spaces sharing the same repository under a single collapsible repo header, showing task subtitles, split-pane indicators, rolled-up PR badges (when paired with `vantage-agents`), and a `+` button to add a tab inside that repo.
 

@@ -1,5 +1,7 @@
 # Agent PRs (`vantage-agents`)
 
+![Agent PRs](preview.png)
+
 Standalone **Agents** sidebar mod for Herdr App that shows real task titles for **Claude Code** and **Antigravity (`agy`)**, split-pane counts, and Claude Code-style GitHub PR status badges (`#3fb950` green = open, `#a371f7` purple = all merged, `#f85149` red dot = CI failing) with a clickable PR list popover.
 
 ## Install

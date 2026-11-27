@@ -2,6 +2,8 @@
 
 A card-based dark layout for Herdr App with the **Aura Soft Dark** theme, a rounded top bar with labeled panel buttons (`Files`, `Changes`, optional `Browser`), repo-grouped **Spaces**, and **Agents** with real task titles and Claude Code-style GitHub PR badges.
 
+![Vantage](preview.png)
+
 ## What you see
 
 - **Left sidebar (`284px`, resizable `44px–480px`)**: four rounded cards (`radius: 14`, `1px` border) with `12px` gaps:

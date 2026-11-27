@@ -1,5 +1,7 @@
 # Repo Spaces (`vantage-spaces`)
 
+![Repo Spaces](preview.png)
+
 Standalone **Spaces** sidebar mod for Herdr App that groups multiple spaces in the same repository under a single collapsible repo header, displays task subtitles, split-pane (`◫ N`) and multi-tab (`Nt`) indicators, rolled-up PR badges (when paired with `vantage-agents`), and a `+` button to add a tab inside that repo.
 
 ## Install
