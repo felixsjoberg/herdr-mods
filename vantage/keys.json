@@ -1,0 +1,5 @@
+{
+  "layout:vantage": {
+    "cmd-shift-b": "vantage-tabs.browser"
+  }
+}

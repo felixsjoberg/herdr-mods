@@ -1,0 +1,228 @@
+{
+  "id": "root",
+  "type": "row",
+  "children": [
+    {
+      "id": "sidebar",
+      "type": "column",
+      "children": [
+        {
+          "id": "brand",
+          "type": "block",
+          "content": {
+            "mod": "workspace-chrome"
+          },
+          "size": {
+            "px": 38
+          },
+          "border": {
+            "width": 1,
+            "color": "border"
+          },
+          "radius": 14,
+          "window_drag": true
+        },
+        {
+          "id": "sidebar-lists",
+          "type": "column",
+          "children": [
+            {
+              "id": "spaces",
+              "type": "block",
+              "content": {
+                "mod": "vantage-spaces"
+              },
+              "size": {
+                "weight": 1
+              },
+              "min": 90,
+              "border": {
+                "width": 1,
+                "color": "border"
+              },
+              "radius": 14
+            },
+            {
+              "id": "agents",
+              "type": "block",
+              "content": {
+                "mod": "vantage-agents"
+              },
+              "size": {
+                "weight": 1
+              },
+              "min": 90,
+              "border": {
+                "width": 1,
+                "color": "border"
+              },
+              "radius": 14
+            }
+          ],
+          "gap": 12
+        },
+        {
+          "id": "sidebar-footer",
+          "type": "block",
+          "content": {
+            "mod": "workspace-chrome",
+            "props": {
+              "footer": true
+            }
+          },
+          "size": {
+            "px": 72
+          },
+          "border": {
+            "width": 1,
+            "color": "border"
+          },
+          "radius": 14
+        }
+      ],
+      "size": {
+        "px": 284
+      },
+      "min": 44,
+      "max": 480,
+      "gap": 12
+    },
+    {
+      "id": "work",
+      "type": "column",
+      "children": [
+        {
+          "id": "tabs",
+          "type": "block",
+          "content": {
+            "mod": "vantage-tabs"
+          },
+          "size": {
+            "px": 38
+          },
+          "border": {
+            "width": 1,
+            "color": "border"
+          },
+          "radius": 14,
+          "window_drag": true
+        },
+        {
+          "id": "work-body",
+          "type": "row",
+          "children": [
+            {
+              "id": "main",
+              "type": "block",
+              "content": {
+                "tab": "active",
+                "pane": {
+                  "header": {
+                    "content": {
+                      "mod": "pane"
+                    },
+                    "reveal": "always",
+                    "height": 30,
+                    "position": "top"
+                  },
+                  "background": "#21202ed9",
+                  "border": {
+                    "width": 1,
+                    "color": "border"
+                  },
+                  "focus": {
+                    "width": 1,
+                    "color": "#a277ff"
+                  },
+                  "radius": 14,
+                  "gap": 12,
+                  "lone": true
+                }
+              }
+            },
+            {
+              "id": "panel",
+              "type": "column",
+              "children": [
+                {
+                  "id": "panel-body",
+                  "type": "stack",
+                  "children": [
+                    {
+                      "id": "files",
+                      "type": "block",
+                      "content": {
+                        "mod": "files"
+                      }
+                    },
+                    {
+                      "id": "changes",
+                      "type": "block",
+                      "content": {
+                        "mod": "changes"
+                      }
+                    }
+                  ],
+                  "active": "files"
+                }
+              ],
+              "size": {
+                "px": 368
+              },
+              "min": 280,
+              "max": 900,
+              "hidden": true
+            }
+          ],
+          "padding": 0,
+          "gap": 12
+        },
+        {
+          "id": "status-row",
+          "type": "row",
+          "children": [
+            {
+              "id": "status",
+              "type": "block",
+              "content": {
+                "mod": "workspace-status"
+              },
+              "size": {
+                "weight": 1
+              },
+              "border": {
+                "width": 1,
+                "color": "border"
+              },
+              "radius": 14
+            }
+          ],
+          "size": {
+            "px": 32
+          },
+          "gap": 0
+        }
+      ],
+      "gap": 12,
+      "resizable": false
+    }
+  ],
+  "background": "canvas",
+  "padding": 12,
+  "theme": {
+    "light": "paper",
+    "dark": "aura-soft-dark"
+  },
+  "terminal_padding": [
+    16,
+    14
+  ],
+  "terminal_opacity": 0,
+  "gap": 12,
+  "titlebar": "none",
+  "traffic_lights": [
+    24,
+    24
+  ],
+  "preview": "layouts/vantage.svg"
+}

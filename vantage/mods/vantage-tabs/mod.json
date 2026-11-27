@@ -1,0 +1,11 @@
+{
+  "place": "none",
+  "title": "Vantage Tabs (Glass Pill Top Bar)",
+  "commands": [
+    {
+      "name": "browser",
+      "title": "Toggle browser",
+      "description": "Show or hide the embedded browser panel"
+    }
+  ]
+}
