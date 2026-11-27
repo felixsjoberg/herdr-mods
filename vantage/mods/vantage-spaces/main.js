@@ -100,7 +100,7 @@ function rollupSpacePrs(spaceAgents, metaAgents) {
     merged,
     ciFailed,
     color: open > 0 ? PR_OPEN_COLOR : PR_MERGED_COLOR,
-    iconPath: open > 0 ? "mods/vantage-agents/icons/pr-open.svg" : "mods/vantage-agents/icons/pr-merged.svg",
+    iconPath: open > 0 ? "mods/vantage-spaces/icons/pr-open.svg" : "mods/vantage-spaces/icons/pr-merged.svg",
   };
 }
 
@@ -406,7 +406,7 @@ export default class VantageSpaces extends View {
                 .items_center()
                 .text_size(10)
                 .text_color(t.dim)
-                .child(svg("mods/vantage-agents/icons/split.svg").size(10).flex_none().text_color(t.dim))
+                .child(svg("mods/vantage-spaces/icons/split.svg").size(10).flex_none().text_color(t.dim))
                 .child(String(paneCount)),
             ),
           )
@@ -579,7 +579,7 @@ export default class VantageSpaces extends View {
               .text_size(10)
               .text_color(t.dim)
               .tooltip(`${paneCount} split panes`)
-              .child(svg("mods/vantage-agents/icons/split.svg").size(10).flex_none().text_color(t.dim))
+              .child(svg("mods/vantage-spaces/icons/split.svg").size(10).flex_none().text_color(t.dim))
               .child(String(paneCount)),
           ),
         )
